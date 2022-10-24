@@ -7,6 +7,10 @@ body *{
     background-color: blueviolet !important;
 }
 
+footer{
+    display: none;
+}
+
 
 
 
@@ -30,6 +34,7 @@ body *{
 /* ? Tag HTML */
 body{
     font-family: 'Open Sans' , sans-serif;
+    font-size: 10px;
 }
 
 button{
@@ -84,4 +89,24 @@ a{
 /* Colors */
 .color_white{
     color: white;
+}
+
+
+
+
+
+/* * SPECIFIC STYLE INFORMATIONS */
+
+/* * HEADER */
+#main-header{
+    height: 3.3em;
+}
+
+
+
+/* * MAIN */
+
+/* ? Header */
+main header{
+    height: 29.9em;
 }
