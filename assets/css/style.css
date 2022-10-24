@@ -112,6 +112,12 @@ img{
 }
 
 
+/* ? Other */
+.title{
+    font-size: 2.2em;
+}
+
+
 
 /* * COMBINATIONS */
 .color_black a{
@@ -124,6 +130,10 @@ img{
 
 header button{
     padding: 0.5em 1em;
+}
+
+button.bg-color_white{
+    border: 1px solid black;
 }
 
 
@@ -162,6 +172,9 @@ header button{
 
 
 /* * Main */
+main>section{
+    padding-top: 9em !important;
+}
 
 /* ? Header */
 main header{
@@ -183,8 +196,13 @@ main header .content .img-container{
     height: 25em;
 }
 
+main header .text-content button{
+    margin: 1.2em 0;
+}
+
 main header .text-content .icon{
     font-size: 3em;
+    padding-top: 1.2em;
 }
 
 
@@ -197,6 +215,19 @@ main header .text-content .icon{
 /* ? Contact Partner Area */
 #dropbox_contact-partner-area{
     height: 39.5em;
+}
+
+#dropbox_contact-partner-area h2{
+    padding-bottom: 0.5em;
+}
+
+#dropbox_contact-partner-area .text-content{
+    padding: 3em 0 0 3em;
+}
+
+#dropbox_contact-partner-area button{
+    padding: 0.7em 1em;
+    margin-top: 2em;
 }
 
 
