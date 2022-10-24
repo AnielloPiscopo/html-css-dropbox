@@ -3,6 +3,10 @@ body *{
     height: 100px;
 }
 
+.bg-color_white{
+    background-color: blueviolet !important;
+}
+
 
 
 
