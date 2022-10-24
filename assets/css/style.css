@@ -21,3 +21,36 @@ button{
 a{
     text-decoration: none;
 }
+
+
+
+/* ? Classes */
+
+/* Positions and displays */
+.flex{
+    display: flex;
+}
+
+.p_fixed{
+    position: fixed
+}
+
+
+/* Bg-colors */
+.bg-color_turquoise{
+    background-color: #b4d0e7;
+}
+
+.bg-color_white{
+    background-color: white;
+}
+
+.bg-color_black{
+    background-color: black;
+}
+
+
+/* Colors */
+.color_white{
+    color: white;
+}
