@@ -35,6 +35,7 @@ body{
 
 button{
     border: none;
+    font-size: 1em;
 }
 
 ul{
@@ -96,6 +97,10 @@ img{
     background-color: black;
 }
 
+.bg-color_blue{
+    background-color: #0061ff;
+}
+
 
 /* ? Colors */
 .color_white{
@@ -117,6 +122,10 @@ img{
     color: white;
 }
 
+header button{
+    padding: 0.5em 1em;
+}
+
 
 
 
@@ -133,15 +142,19 @@ img{
     padding:0 1em;
 }
 
+#main-header ul{
+    width: 21em;
+}
+
+
+/* ? Left Content */
 #main-header .logo-container{
     height: 1.3em;
     padding-right: 2em;
 }
 
-#main-header ul{
-    width: 21em;
-}
 
+/* ? Right Content */
 #main-header .right-content .btn-container{
     padding-left: 2em;
 }
@@ -153,6 +166,11 @@ img{
 /* ? Header */
 main header{
     height: 40.5em;
+}
+
+main header h1{
+    font-size: 4em;
+    font-weight: 800;
 }
 
 
