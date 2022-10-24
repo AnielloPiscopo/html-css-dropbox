@@ -11,6 +11,10 @@ footer{
     display: none;
 }
 
+main>section{
+    border-bottom: 1px solid black;
+}
+
 
 
 
@@ -22,7 +26,7 @@ footer{
 
 /* * GENERIC STYLE INFORMATIONS */
 
-/* ? Universal Selector */
+/* * Universal Selector */
 *{
     margin: 0;
     padding: 0;
@@ -31,7 +35,7 @@ footer{
 
 
 
-/* ? Tag HTML */
+/* * Tag HTML */
 body{
     font-family: 'Open Sans' , sans-serif;
     font-size: 10px;
@@ -47,9 +51,9 @@ a{
 
 
 
-/* ? Classes */
+/* * Classes */
 
-/* Containers */
+/* ? Containers */
 .container{
     margin: 0 auto;
 }
@@ -62,7 +66,7 @@ a{
     padding: 0 25%;
 }
 
-/* Positions and displays */
+/* ? Positions and displays */
 .flex{
     display: flex;
 }
@@ -72,7 +76,7 @@ a{
 }
 
 
-/* Bg-colors */
+/* ? Bg-colors */
 .bg-color_turquoise-blue{
     background-color: #b4d0e7;
 }
@@ -86,7 +90,7 @@ a{
 }
 
 
-/* Colors */
+/* ? Colors */
 .color_white{
     color: white;
 }
@@ -109,4 +113,22 @@ a{
 /* ? Header */
 main header{
     height: 29.9em;
+}
+
+
+/* ? Business Plans */
+#dropbox_business-plans{
+    height: 64em;
+}
+
+
+/* ? Contact Partner Area */
+#dropbox_contact-partner-area{
+    height: 29.9em;
+}
+
+
+/* ? Operations List */
+#dropbox_operations-list{
+    height: 53.5em;
 }
