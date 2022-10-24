@@ -45,12 +45,12 @@ a{
     margin: 0 auto;
 }
 
-.big-container{
-    width: 80%;
+.big.container{
+    padding: 0 10%;
 }
 
-.small-container{
-    width: 70%;
+.small.container{
+    padding: 0 15%;
 }
 
 /* Positions and displays */
