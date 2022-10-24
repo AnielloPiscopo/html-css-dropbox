@@ -132,7 +132,7 @@ header button{
 
 /* * SPECIFIC STYLE INFORMATIONS */
 
-/* * HEADER */
+/* * Header */
 #main-header{
     height: 4.4em;
 }
@@ -161,13 +161,15 @@ header button{
 
 
 
-/* * MAIN */
+/* * Main */
 
 /* ? Header */
 main header{
     height: 40.5em;
 }
 
+
+/* Title */
 main header .title{
     font-size: 4.3em;
     font-weight: 800;
@@ -175,9 +177,14 @@ main header .title{
     padding-bottom: 0.7em;
 }
 
+/* Content */
 main header .content .img-container{
     width: 245em;
     height: 25em;
+}
+
+main header .text-content .icon{
+    font-size: 3em;
 }
 
 
@@ -212,7 +219,7 @@ main header .content .img-container{
 
 
 
-/* * FOOTER */
+/* * Footer */
 footer{
     height: 32em;
 }
