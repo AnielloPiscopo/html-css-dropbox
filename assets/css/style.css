@@ -132,3 +132,22 @@ main header{
 #dropbox_operations-list{
     height: 53.5em;
 }
+
+
+/* ? Clients Infomations */
+#dropbox_clients-informations{
+    height: 60em;
+}
+
+
+/* ? Frequent Questions Area */
+#dropbox_frequent-questions-area{
+    height: 23.1em;
+}
+
+
+
+/* * FOOTER */
+footer{
+    height: 25em;
+}
