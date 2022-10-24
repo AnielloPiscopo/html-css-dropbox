@@ -1,8 +1,4 @@
 /* !Momentaneal Changes */
-body *{
-    height: 100px;
-}
-
 footer{
     display: none;
 }
@@ -34,11 +30,15 @@ main>section{
 /* * Tag HTML */
 body{
     font-family: 'Open Sans' , sans-serif;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 button{
     border: none;
+}
+
+ul{
+    list-style: none;
 }
 
 a{
@@ -47,6 +47,7 @@ a{
 
 img{
     width: 100%;
+    height: 100%;
 }
 
 
@@ -70,6 +71,11 @@ img{
 /* ? Positions and displays */
 .flex{
     display: flex;
+}
+
+.flex.centered{
+    justify-content: space-between;
+    align-items: center;
 }
 
 .p_fixed{
@@ -119,7 +125,25 @@ img{
 
 /* * HEADER */
 #main-header{
-    height: 3.3em;
+    height: 4.4em;
+}
+
+#main-header nav{
+    height: 100%;
+    padding:0 1em;
+}
+
+#main-header .logo-container{
+    height: 1.3em;
+    padding-right: 2em;
+}
+
+#main-header ul{
+    width: 21em;
+}
+
+#main-header .right-content .btn-container{
+    padding-left: 2em;
 }
 
 
@@ -128,42 +152,42 @@ img{
 
 /* ? Header */
 main header{
-    height: 29.9em;
+    height: 40.5em;
 }
 
 
 /* ? Business Plans */
 #dropbox_business-plans{
-    height: 64em;
+    height: 87em;
 }
 
 
 /* ? Contact Partner Area */
 #dropbox_contact-partner-area{
-    height: 29.9em;
+    height: 39.5em;
 }
 
 
 /* ? Operations List */
 #dropbox_operations-list{
-    height: 53.5em;
+    height: 72em;
 }
 
 
 /* ? Clients Infomations */
 #dropbox_clients-informations{
-    height: 60em;
+    height: 76em;
 }
 
 
 /* ? Frequent Questions Area */
 #dropbox_frequent-questions-area{
-    height: 23.1em;
+    height: 37em;
 }
 
 
 
 /* * FOOTER */
 footer{
-    height: 25em;
+    height: 32em;
 }
