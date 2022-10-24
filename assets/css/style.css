@@ -1,0 +1,15 @@
+/* *GENERIC STYLE INFORMATIONS */
+
+/* ?Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ?Tag HTML */
+body{
+    font-family: 'Open Sans' , sans-serif;
+}
