@@ -3,10 +3,6 @@ body *{
     height: 100px;
 }
 
-.bg-color_white{
-    background-color: blueviolet !important;
-}
-
 footer{
     display: none;
 }
@@ -49,6 +45,10 @@ a{
     text-decoration: none;
 }
 
+img{
+    width: 100%;
+}
+
 
 
 /* * Classes */
@@ -65,6 +65,7 @@ a{
 .small.container{
     padding: 0 25%;
 }
+
 
 /* ? Positions and displays */
 .flex{
@@ -92,6 +93,21 @@ a{
 
 /* ? Colors */
 .color_white{
+    color: white;
+}
+
+.color_black{
+    color: black;
+}
+
+
+
+/* * COMBINATIONS */
+.color_black a{
+    color: black;
+}
+
+.color_white a{
     color: white;
 }
 
