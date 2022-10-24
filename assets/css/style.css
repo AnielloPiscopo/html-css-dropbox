@@ -1,7 +1,4 @@
 /* !Momentaneal Changes */
-footer{
-    display: none;
-}
 
 main>section{
     border-bottom: 1px solid black;
@@ -115,6 +112,7 @@ img{
 /* ? Other */
 .title{
     font-size: 2.2em;
+    padding-bottom: 1.2em;
 }
 
 
@@ -211,6 +209,10 @@ main header .text-content .icon{
     height: 87em;
 }
 
+#dropbox_business-plans .radio-btns-container input:last-of-type{
+    margin-left: 2.5em;
+}
+
 
 /* ? Contact Partner Area */
 #dropbox_contact-partner-area{
@@ -233,7 +235,16 @@ main header .text-content .icon{
 
 /* ? Operations List */
 #dropbox_operations-list{
-    height: 72em;
+    height: 80em;
+}
+
+#dropbox_operations{
+    flex-wrap: wrap;
+}
+
+#dropbox_operations .dropbox_operation{
+    width: calc(100%/3);
+    padding: 0 3em 4.5em 0;
 }
 
 
@@ -245,12 +256,12 @@ main header .text-content .icon{
 
 /* ? Frequent Questions Area */
 #dropbox_frequent-questions-area{
-    height: 37em;
+    height: 39.3em;
 }
 
 
 
 /* * Footer */
 footer{
-    height: 32em;
+    height: 31em;
 }
