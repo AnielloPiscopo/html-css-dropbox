@@ -12,6 +12,12 @@ main header{
     height: 87em;
 }
 
+#dropbox_business-plans .column{
+    height: 200px;
+    background-color: blue;
+    border: 1px dotted;
+}
+
 #dropbox_contact-partner-area{
     height: 39.5em;
 }
@@ -112,7 +118,8 @@ img{
 }
 
 .flex.columns .column{
-    width: calc(100%/3);
+    width: calc(100%/3 - 3em);
+    margin-right: 3em;
 }
 
 .p_fixed{
