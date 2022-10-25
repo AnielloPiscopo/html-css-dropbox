@@ -317,6 +317,10 @@ main header .text-content .icon{
     border-bottom: 1px solid lightgrey;
 }
 
+#dropbox_questions .question .icon{
+    padding-right: 3em;
+}
+
 
 
 /* * Footer */
