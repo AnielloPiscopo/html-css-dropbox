@@ -90,7 +90,7 @@ img{
 /* ? Containers */
 .container{
     margin: 0 auto;
-    padding: 0 25%;
+    padding: 0 23%;
 }
 
 .big.container{
@@ -261,9 +261,14 @@ main header .text-content .icon{
     padding: 3em 0 0 3em;
 }
 
-#dropbox_contact-partner-area button{
+#dropbox_contact-partner-area .text-content button{
     padding: 0.7em 1em;
     margin-top: 2em;
+}
+
+#dropbox_contact-partner-area .img-container{
+    height: 30em;
+    width: 130em;
 }
 
 
