@@ -311,8 +311,11 @@ main header .text-content .icon{
     border-collapse: collapse;
     padding: 2em 0;
     border-top: 1px solid lightgrey;
+}
+
+#dropbox_questions .question:last-of-type{
     border-bottom: 1px solid lightgrey;
-} 
+}
 
 
 
