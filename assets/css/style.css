@@ -305,6 +305,13 @@ main header .text-content .icon{
 
 /* ? Frequent Questions Area */
 
+#dropbox_questions .question{
+    border-collapse: collapse;
+    padding: 2em 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+} 
+
 
 
 /* * Footer */
