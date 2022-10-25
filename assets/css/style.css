@@ -30,6 +30,9 @@ footer ul{
     border: 1px dotted;
 }
 
+.company{
+    background-color: yellow;
+}
 
 
 
@@ -304,6 +307,15 @@ main header .text-content .icon{
     height: calc(100vw/3);
 }
 
+#dropbox_companies-container .companies-container.flex{
+    flex-wrap: wrap;
+}
+
+#dropbox_companies-container .company{
+    height: 50%;
+    width: 50%;
+}
+
 
 /* ? Frequent Questions Area */
 
@@ -354,4 +366,8 @@ footer nav.flex.columns .column{
     display: inline-block;
     padding: 3.3em 0;
     border-top: 1px solid grey;
+}
+
+#language-selection .angle-up.icon{
+    vertical-align: bottom;
 }
