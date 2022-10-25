@@ -293,7 +293,6 @@ main header .text-content .icon{
     padding-top: 9em;
 }
 
-
 /* Companies Container */
 #dropbox_companies-container .companies-container{
     width: calc(100vw/3);
@@ -301,9 +300,7 @@ main header .text-content .icon{
 }
 
 
-
 /* ? Free Trial Period */
-
 
 
 /* ? Frequent Questions Area */
@@ -311,11 +308,18 @@ main header .text-content .icon{
 
 
 /* * Footer */
+footer{
+    padding-top: 5.7em;
+    padding-bottom: 3.3em;
+}
+
+footer.flex{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 /* ? Navbar */
-footer nav{
-    padding-top: 5.7em;
-}
 footer nav.flex.column{
     flex-wrap: nowrap;
 }
