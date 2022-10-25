@@ -30,6 +30,12 @@ main header{
     height: 76em;
 }
 
+#dropbox_companies-container .companies-container{
+    background-color: red;
+    border: 1px dotted;
+}
+
+
 #dropbox_frequent-questions-area{
     height: 39.3em;
 }
@@ -277,10 +283,16 @@ main header .text-content .icon{
 }
 
 
-/* ? Operations List */
+/* ? Operations */
 
 
-/* ? Clients Infomations */
+/* ? Clients */
+
+/* Companies Container */
+#dropbox_companies-container .companies-container{
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+}
 
 
 /* ? Frequent Questions Area */
