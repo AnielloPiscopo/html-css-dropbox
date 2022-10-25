@@ -293,14 +293,20 @@ main header .text-content .icon{
     padding-top: 9em;
 }
 
+#dropbox_clients .text-content.flex.space-between{
+    align-items: flex-start;
+}
+
+#dropbox_clients button{
+    padding: 0.5em 3em;
+    border: none;
+}
+
 /* Companies Container */
 #dropbox_companies-container .companies-container{
     width: calc(100vw/3);
     height: calc(100vw/3);
 }
-
-
-/* ? Free Trial Period */
 
 
 /* ? Frequent Questions Area */
