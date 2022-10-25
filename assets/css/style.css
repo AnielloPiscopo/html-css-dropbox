@@ -257,6 +257,10 @@ main header .text-content .icon{
     width: 100%;
 }
 
+#dropbox_business-plans .columns{
+    margin-top: 3em;
+}
+
 
 /* ? Contact Partner Area */
 #dropbox_contact-partner-area h2{
