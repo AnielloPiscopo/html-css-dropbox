@@ -16,11 +16,11 @@ main header{
     height: 39.5em;
 }
 
-#dropbox_operations-list{
-    height: 90em;
+#dropbox_operations{
+    height: 80em;
 }
 
-#dropbox_clients-informations{
+#dropbox_clients{
     height: 76em;
 }
 
@@ -105,6 +105,14 @@ img{
 .flex.centered{
     justify-content: center;
     align-items: center;
+}
+
+.flex.columns{
+    flex-wrap: wrap;
+}
+
+.flex.columns .column{
+    width: calc(100%/3);
 }
 
 .p_fixed{
@@ -253,14 +261,6 @@ main header .text-content .icon{
 
 
 /* ? Operations List */
-#dropbox_operations{
-    flex-wrap: wrap;
-}
-
-#dropbox_operations .dropbox_operation{
-    width: calc(100%/3);
-    padding: 0 3em 4.5em 0;
-}
 
 
 /* ? Clients Infomations */
