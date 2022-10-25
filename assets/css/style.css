@@ -28,6 +28,12 @@ footer{
     height: 31em;
 }
 
+footer ul{
+    background-color: red;
+    height: 100px;
+    border: 1px dotted;
+}
+
 
 
 
@@ -111,7 +117,6 @@ img{
 
 .flex.columns .column{
     width: calc(100%/3 - 3em);
-    margin-right: 3em;
     margin-bottom: 3em;
 }
 
@@ -302,3 +307,16 @@ main header .text-content .icon{
 
 
 /* * Footer */
+
+/* ? Navbar */
+footer nav{
+    padding-top: 5.7em;
+}
+footer nav.flex.column{
+    flex-wrap: nowrap;
+}
+
+footer nav.flex.columns .column{
+    width: calc(100%/5 - 3em);
+    margin-bottom: 0;
+}
