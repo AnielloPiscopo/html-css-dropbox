@@ -4,10 +4,6 @@ main>section{
     border-bottom: 1px solid black;
 }
 
-main header{
-    height: 40.5em;
-}
-
 #dropbox_business-plans{
     height: 87em;
 }
@@ -16,18 +12,6 @@ main header{
     height: 200px;
     background-color: blue;
     border: 1px dotted;
-}
-
-#dropbox_contact-partner-area{
-    height: 39.5em;
-}
-
-#dropbox_operations{
-    height: 80em;
-}
-
-#dropbox_clients{
-    height: 76em;
 }
 
 #dropbox_companies-container .companies-container{
@@ -96,11 +80,13 @@ img{
 /* ? Containers */
 .container{
     margin: 0 auto;
-    padding: 0 23%;
+    padding-left: 23%;
+    padding-right: 23%;
 }
 
 .big.container{
-    padding: 0 19%;
+    padding-left: 19%;
+    padding-right: 19%;
 }
 
 
@@ -223,8 +209,12 @@ button.bg-color_white{
 
 
 /* * Main */
-main>section{
-    padding-top: 9em !important;
+main>section:not(#dropbox_clients){
+    padding-top: 9em;
+}
+
+main>section:last-of-type{
+    padding-bottom: 9em;
 }
 
 /* ? Header */
@@ -291,6 +281,7 @@ main header .text-content .icon{
 /* Text Content */
 #dropbox_clients .text-content{
     padding-bottom: 9em;
+    padding-top: 9em;
 }
 
 
@@ -303,16 +294,10 @@ main header .text-content .icon{
 
 
 /* ? Free Trial Period */
-#dropbox_free-trial-period{
-    padding-bottom: 9em;
-}
 
 
 
 /* ? Frequent Questions Area */
-#dropbox_frequent-questions-area{
-    padding-bottom: 9em;
-}
 
 
 
