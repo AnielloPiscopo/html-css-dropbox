@@ -24,10 +24,6 @@ main>section{
     height: 39.3em;
 }
 
-footer{
-    height: 31em;
-}
-
 footer ul{
     background-color: red;
     height: 100px;
@@ -314,16 +310,15 @@ main header .text-content .icon{
 #dropbox_questions .question{
     border-collapse: collapse;
     padding: 2em 0;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 } 
 
 
 
 /* * Footer */
 footer{
-    padding-top: 5.7em;
-    padding-bottom: 3.3em;
+    height: 31em;
 }
 
 footer.flex{
@@ -333,6 +328,10 @@ footer.flex{
 
 
 /* ? Navbar */
+footer nav{
+    padding: 5.7em 0;
+}
+
 footer nav.flex.column{
     flex-wrap: nowrap;
 }
@@ -340,4 +339,12 @@ footer nav.flex.column{
 footer nav.flex.columns .column{
     width: calc(100%/5 - 3em);
     margin-bottom: 0;
+}
+
+
+/* ? Language Selection */
+#language-selection{
+    display: inline-block;
+    padding: 3.3em 0;
+    border-top: 1px solid grey;
 }
