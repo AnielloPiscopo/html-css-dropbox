@@ -288,6 +288,12 @@ main header .text-content .icon{
 
 /* ? Clients */
 
+/* Text Content */
+#dropbox_clients .text-content{
+    padding-bottom: 9em;
+}
+
+
 /* Companies Container */
 #dropbox_companies-container .companies-container{
     width: calc(100vw/3);
@@ -295,7 +301,18 @@ main header .text-content .icon{
 }
 
 
+
+/* ? Free Trial Period */
+#dropbox_free-trial-period{
+    padding-bottom: 9em;
+}
+
+
+
 /* ? Frequent Questions Area */
+#dropbox_frequent-questions-area{
+    padding-bottom: 9em;
+}
 
 
 
