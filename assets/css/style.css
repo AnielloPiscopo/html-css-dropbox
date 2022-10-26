@@ -206,8 +206,8 @@ button.bg-color_white{
 
 
 /* ? Right Content */
-#main-header .right-content .btn-container{
-    padding-left: 2em;
+#main-header .right-content button{
+    margin-left: 2em;
 }
 
 
@@ -316,10 +316,21 @@ main header .text-content .icon{
     width: 50%;
 }
 
+#dropbox_companies-container .company img{  
+    filter: invert(100%);
+    width: 50%;
+    height: 50%;
+}
+
+#dropbox_companies-container .company img.low-height{  
+    height: 10%;
+}
+
 
 /* ? Frequent Questions Area */
 
 #dropbox_questions .question{
+    font-weight: 700;
     border-collapse: collapse;
     padding: 2em 0;
     border-top: 1px solid lightgrey;
