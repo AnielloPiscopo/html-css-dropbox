@@ -66,6 +66,10 @@ hr{
 
 
 /* ? Positions and displays */
+.d_none{
+    display: none;
+}
+
 .flex{
     display: flex;
 }
@@ -173,8 +177,8 @@ hr{
     text-decoration: underline;
 }
 
-.fa-angle-up,
-.fa-angle-down{
+.icon.fa-angle-up,
+.icon.fa-angle-down{
     cursor: pointer;
 }
 
@@ -220,6 +224,18 @@ button.bg-color_white:hover{
 
 button.bg-color_white:active{
     background-color: lightgrey;
+}
+
+.icon.d_none{
+    display: none;
+}
+
+.icon.d_inline-block:active{
+    display: none;
+}
+
+.icon.d_inline-block:active + .icon.d_none{
+    display: inline-block;
 }
 
 
@@ -559,7 +575,7 @@ footer nav.flex.columns .column{
     border-top: 1px solid grey;
 }
 
-#language-selection .angle-up.icon{
+#language-selection .fa-angle-up.icon{
     vertical-align: bottom;
 }
 
