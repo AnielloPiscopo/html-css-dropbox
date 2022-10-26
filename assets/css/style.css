@@ -190,10 +190,6 @@ input[type='radio']{
     color: white;
 }
 
-header button{
-    padding: 0.5em 1em;
-}
-
 button.bg-color_white{
     border: 1px solid black;
 }
@@ -229,6 +225,7 @@ button.bg-color_white{
 /* ? Right Content */
 #main-header .right-content button{
     margin-left: 2em;
+    padding: 0.5em 1em;
 }
 
 
@@ -260,6 +257,7 @@ main>header .content .img-container{
 
 main>header .text-content button{
     margin: 1.2em 0;
+    padding: 0.7em 1em;
 }
 
 main>header .text-content .icon{
