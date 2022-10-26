@@ -315,6 +315,10 @@ main>header .text-content .icon{
     align-items: flex-start;
 }
 
+#dropbox_clients .text-content.flex.space-between .title{
+    padding-bottom: 0;
+}
+
 #dropbox_clients button{
     padding: 0.5em 3em;
     border: none;
