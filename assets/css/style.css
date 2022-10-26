@@ -562,3 +562,32 @@ footer nav.flex.columns .column{
 #language-selection .angle-up.icon{
     vertical-align: bottom;
 }
+
+
+
+
+
+
+
+
+
+/* * RESPONSIVENESS PART  */
+@media screen and (min-width: 1430px){
+    body{
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 830px){
+    body{
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        font-size: 2px;
+    }
+}
