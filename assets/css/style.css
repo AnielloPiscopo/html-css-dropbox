@@ -88,6 +88,10 @@ hr{
     position: fixed
 }
 
+.p_relative{
+    position: relative;
+}
+
 
 /* ? Bg-colors */
 .bg-color_turquoise-blue{
@@ -251,7 +255,8 @@ button.bg-color_white:active{
 }
 
 #main-header.p_fixed{
-    opacity: 0.8;
+    z-index: 2;
+    opacity: 0.9;
 }
 
 #main-header nav{
@@ -281,9 +286,11 @@ button.bg-color_white:active{
 
 
 /* * Main */
-#main-header.p_fixed + main{
+#main-header.p_fixed + main.p_relative{
     padding-top: 5em;
+    z-index: 1;
 }
+
 main>section:not(#dropbox_clients){
     padding-top: 9em;
 }
