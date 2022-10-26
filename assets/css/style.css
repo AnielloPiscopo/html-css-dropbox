@@ -37,6 +37,12 @@ input[type='radio']{
     vertical-align: middle;
 }
 
+hr{
+    width: 20%;
+    color: rgb(226, 224, 224);
+    margin:3em 0;
+}
+
 
 
 /* * Classes */
@@ -190,6 +196,11 @@ button.bg-color_white{
 /* * Header */
 #main-header{
     height: 5em;
+    width: 100%;
+}
+
+#main-header.p_fixed{
+    opacity: 0.8;
 }
 
 #main-header nav{
@@ -218,6 +229,9 @@ button.bg-color_white{
 
 
 /* * Main */
+#main-header.p_fixed + main{
+    padding-top: 5em;
+}
 main>section:not(#dropbox_clients){
     padding-top: 9em;
 }
@@ -236,6 +250,9 @@ main .flex.columns .column{
 }
 
 /* ? Header */
+main>header{
+    height: 42.5em;
+}
 
 /* Title */
 main>header .title{
@@ -248,7 +265,7 @@ main>header .title{
 /* Content */
 main>header .content .img-container{
     width: 245em;
-    height: 25em;
+    height: 27em;
 }
 
 main>header .text-content button{
@@ -376,21 +393,24 @@ main>header .text-content .icon{
 
 
 /* ? Operations */
+#dropbox_operations h2{
+    padding-bottom: 1em;
+}
 
 
 /* ? Clients */
 
 /* Text Content */
-#dropbox_clients .text-content{
+#dropbox_clients>.text-content{
     padding-bottom: 6.6em;
     padding-top: 6.6em;
 }
 
-#dropbox_clients .text-content.flex.space-between{
+#dropbox_clients>.text-content.flex.space-between{
     align-items: flex-start;
 }
 
-#dropbox_clients .text-content.flex.space-between .title{
+#dropbox_clients>.text-content.flex.space-between .title{
     padding-bottom: 0;
 }
 
@@ -414,6 +434,14 @@ main>header .text-content .icon{
     width: 50%;
 }
 
+#dropbox_companies-container .company.active{
+    border: 1em solid;
+}
+
+#dropbox_companies-container .company.active.bg-color_green{
+    border-color: #d1e9cd;
+}
+
 #dropbox_companies-container .company img{  
     filter: invert(100%);
     width: 50%;
@@ -422,6 +450,18 @@ main>header .text-content .icon{
 
 #dropbox_companies-container .company img.low-height{  
     height: 10%;
+}
+
+#dropbox_companies-container article.companies-container{
+    padding: 3em;
+}
+
+#dropbox_companies-container article.companies-container header.img-container{
+    width: 50%;
+}
+
+#dropbox_companies-container article.companies-container .text-content p{
+    margin-bottom: 3em;
 }
 
 
