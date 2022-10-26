@@ -158,6 +158,10 @@ input[type='radio']{
     font-weight: 700;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 
 
 /* * COMBINATIONS */
@@ -167,6 +171,10 @@ input[type='radio']{
 
 .color_white a{
     color: white;
+}
+
+a.color_blue{
+    color: blue;
 }
 
 button.bg-color_white{
@@ -255,10 +263,15 @@ main>header .text-content .icon{
 
 
 /* ? Business Plans */
-#dropbox_business-plans button,
 #dropbox_business-plans .plan-description header span{
     display: block;
+}
+
+#dropbox_business-plans button{
+    display: block;
     width: 100%;
+    padding: 0.7em 0;
+    margin: 1.5em 0;
 }
 
 #dropbox_business-plans .radio-btns-container input:last-of-type{
@@ -275,6 +288,23 @@ main>header .text-content .icon{
 
 #dropbox_business-plans .columns .column{
     border: 1px solid lightgrey;
+    height: 60em;
+}
+
+#dropbox_business-plans .column:last-of-type{
+    height: 20em;
+}
+
+#dropbox_business-plans .column:last-of-type span{
+    display: block;
+}
+
+#dropbox_business-plans .column:last-of-type button{
+    width: 30%;
+}
+
+#dropbox_business-plans .column:last-of-type .subtitle{
+    padding-bottom: 2.5em;
 }
 
 /* Client Type */
@@ -286,18 +316,42 @@ main>header .text-content .icon{
 
 /* Plan Description */
 #dropbox_business-plans .column .plan-description{
-    width: 80%;
+    padding-left: 2em;
+    padding-right: 2em;
     margin: 0 auto;
 }
 
+#dropbox_business-plans .column:last-of-type .plan-description.flex{
+    align-items: flex-start;
+}
+
 #dropbox_business-plans .plan-description ul li,
-#dropbox_business-plans .plan-description header span{
-    padding: 0.3em 0;
+#dropbox_business-plans .plan-description span{
+    padding: 0.5em 0;
+}
+
+#dropbox_business-plans .plan-description  header,
+#dropbox_business-plans .plan-description .text-content,
+#dropbox_business-plans .plan-description .buy-now-link{
+    padding-top: 1.5em;
 }
 
 /* PLAN INFO */
+#dropbox_business-plans .plan-info .buy-now-link{
+    padding-bottom: 1.5em;
+}
+
 #dropbox_business-plans .plan-info .buy-now-link span{
     border-bottom: 1px solid lightgrey;
+    padding-bottom: 1.5em;
+}
+
+/* PLAN ADVANTAGES */
+#dropbox_business-plans .plan-advantages ul li::before{
+    content: '\2713';
+    color: blue;
+    font-weight: 800;
+    padding-right: 0.5em;
 }
 
 
