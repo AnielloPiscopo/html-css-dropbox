@@ -354,17 +354,20 @@ main>header .text-content .icon{
     margin-left: 2.5em;
 }
 
-#dropbox_business-plans .columns .column:last-of-type{
-    width: 100%;
-}
-
 #dropbox_business-plans .columns{
     margin-top: 3em;
 }
 
+#dropbox_business-plans .columns.flex{
+    align-items: stretch;
+}
+
+#dropbox_business-plans .columns .column:last-of-type{
+    width: 100%;
+}
+
 #dropbox_business-plans .columns .column{
     border: 1px solid lightgrey;
-    height: 60em;
 }
 
 #dropbox_business-plans .column:last-of-type{
@@ -402,8 +405,12 @@ main>header .text-content .icon{
 }
 
 #dropbox_business-plans .plan-description ul li,
-#dropbox_business-plans .plan-description span{
+#dropbox_business-plans .plan-description>span{
     padding: 0.5em 0;
+}
+
+#dropbox_business-plans .plan-description ul li>span{
+    padding-left: 0.5em;
 }
 
 #dropbox_business-plans .plan-description  header,
