@@ -65,7 +65,7 @@ hr{
 }
 
 
-/* ? Positions and displays */
+/* ? Displays */
 .d_none{
     display: none;
 }
@@ -84,12 +84,18 @@ hr{
     align-items: center;
 }
 
+
+/* ? Positions */
 .p_fixed{
     position: fixed
 }
 
 .p_relative{
     position: relative;
+}
+
+.p_absolute{
+    position: absolute;
 }
 
 
@@ -161,7 +167,7 @@ hr{
 }
 
 
-/* ? Other */
+/* ? Text */
 .title{
     font-size: 2.5em;
     padding-bottom: 1.5em;
@@ -181,6 +187,8 @@ hr{
     text-decoration: underline;
 }
 
+
+/* ? Other */
 .icon.fa-angle-up,
 .icon.fa-angle-down{
     cursor: pointer;
@@ -228,18 +236,6 @@ button.bg-color_white:hover{
 
 button.bg-color_white:active{
     background-color: lightgrey;
-}
-
-.icon.d_none{
-    display: none;
-}
-
-.icon.d_inline-block:active{
-    display: none;
-}
-
-.icon.d_inline-block:active + .icon.d_none{
-    display: inline-block;
 }
 
 
@@ -543,10 +539,12 @@ main>header .text-content .icon{
 
 /* ? Frequent Questions Area */
 #dropbox_questions .question{
-    font-weight: 700;
-    border-collapse: collapse;
     padding: 2em 0;
     border-top: 1px solid lightgrey;
+}
+
+#dropbox_questions .question>span{
+    font-weight: 700;
 }
 
 #dropbox_questions .question:last-of-type{
@@ -555,6 +553,35 @@ main>header .text-content .icon{
 
 #dropbox_questions .question .icon{
     padding-right: 3em;
+}
+
+#hidden-answer1-btn:checked ~ #hidden-answer1-btn .d_none{
+    display: block;
+}
+
+#hidden-answer1-btn:checked ~ #hidden-answer1-btn .d_block{
+    display: none;
+}
+
+#hidden-answer2-btn:checked ~ #hidden-answer2-btn .d_none{
+    display: block;
+}
+
+#hidden-answer2-btn:checked ~ #hidden-answer2-btn .d_block{
+    display: none;
+}
+
+#hidden-answer3-btn:checked ~ #hidden-answer3-btn .d_none{
+    display: block;
+}
+
+#hidden-answer3-btn:checked ~ #hidden-answer3-btn .d_block{
+    display: none;
+}
+
+#dropbox_questions .menu-elements.p_absolute{
+    left: 0;
+    top: 3.5em;
 }
 
 
@@ -589,8 +616,34 @@ footer nav.flex.columns .column{
     border-top: 1px solid grey;
 }
 
+#language-selection .menu{
+    display: inline-block;
+}
+
 #language-selection .fa-angle-up.icon{
     vertical-align: bottom;
+}
+
+#language-selection .menu-elements.p_absolute{
+    bottom: 1em;
+}
+
+#language-selection .menu-elements li{
+    padding: 1em;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#language-selection .menu-elements li:hover{
+    background-color: grey;
+}
+
+#language-selection-btn:checked ~ .d_none{
+    display: block;
+}
+
+#language-selection-btn:checked ~ .d_block{
+    display: none;
 }
 
 
