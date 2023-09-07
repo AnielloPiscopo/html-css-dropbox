@@ -31,7 +31,7 @@
 
 ### 📦 Installation
 
-1. Clone the html-css-boolando repository:
+1. Clone the repository:
 ```sh
 git clone https://github.com/AnielloPiscopo/htmlcss-dropbox
 ```
